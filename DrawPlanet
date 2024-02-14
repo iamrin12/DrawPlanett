@@ -1,0 +1,15 @@
+GameName = "BIC Draw Planet" 
+
+tab1name = "Main" 
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))() 
+
+local GameName = Library:NewWindow(GameName) 
+
+local Tab1 = GameName:NewSection(tab1name) 
+
+Tab1:CreateToggle("Instant UGC", function(value)
+game:GetService('Players').LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(298.767517, 201.032257, -130.058319, -0.551133335, -9.8899072e-08, -0.834417164, -9.28293034e-08, 1, -5.72108867e-08, 0.834417164, 4.59275427e-08, -0.551133335)
+end) 
+
+local Tab2 = GameName:NewSection("Rinn")
